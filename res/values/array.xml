@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="re">
+        <item>내과</item>
+        <item>외과</item>
+        <item>산과</item>
+        <item>안과</item>
+        <item>피부과</item>
+        <item>임상병리과</item>
+        <item>영상의학과</item>
+        <item>응급진료과</item>
+        <item>진단병리과</item>
+        <item>야생동물질병과</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jyk.administrator.animal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.jyk.administrator.animal.Index">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jyk.administrator.animal.Login" />
+        <activity android:name="com.jyk.administrator.animal.Member" />
+        <activity android:name="com.jyk.administrator.animal.Reservation" />
+        <activity android:name="com.jyk.administrator.animal.Reservation_delete" />
+        <activity android:name="com.jyk.administrator.animal.Reservation_subject" />
+        <activity android:name="com.jyk.administrator.animal.Reservation_video" />
+        <activity android:name="com.jyk.administrator.animal.Reservation_select" />
+        <activity android:name="com.jyk.administrator.animal.Admin_medical_certificate" />
+        <activity android:name="com.jyk.administrator.animal.Admin_prescription" />
+        <activity android:name="com.jyk.administrator.animal.Prescription_confirm" />
+        <activity android:name="com.jyk.administrator.animal.Ask" />
+        <activity android:name="com.jyk.administrator.animal.Member_delete" />
+        <activity android:name="com.jyk.administrator.animal.Join" />
+        <activity android:name="com.jyk.administrator.animal.Member_update" />
+        <activity android:name="com.jyk.administrator.animal.Admin_reservation_delete" />
+        <activity android:name="com.jyk.administrator.animal.Admin" />
+        <activity android:name="com.jyk.administrator.animal.Reservation_result" />
+        <activity android:name="com.jyk.administrator.animal.Admin_reservation_result" />
+        <activity android:name="com.jyk.administrator.animal.Reservation_choice" />
+        <activity android:name="com.jyk.administrator.animal.Admin_member_select" />
+        <activity android:name="com.jyk.administrator.animal.Main_login" />
+        <activity android:name="com.jyk.administrator.animal.Prescription_confirm_list" />
+        <activity android:name="com.jyk.administrator.animal.Admin_reservation_result_post" />
+        <activity android:name="com.jyk.administrator.animal.Main"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21FFFFFF">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linearLayout10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="번호"
+            android:layout_weight="0"
+            android:id="@+id/txtNum"
+            android:layout_marginLeft="10dp"
+            android:textSize="12dp"
+            android:textColor="#252525" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:layout_weight="0"
+            android:id="@+id/txt1"
+            android:textSize="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#252525" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디"
+            android:layout_weight="0"
+            android:id="@+id/txtId"
+            android:textSize="12dp"
+            android:textColor="#252525" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:layout_weight="0"
+            android:id="@+id/txt2"
+            android:textSize="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#252525" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약 일자"
+            android:layout_weight="0"
+            android:id="@+id/txtYear"
+            android:textSize="12dp"
+            android:textColor="#252525" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:layout_weight="0"
+            android:id="@+id/txt3"
+            android:textSize="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#252525" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="희망 진료과"
+            android:layout_weight="0"
+            android:id="@+id/txtSubject"
+            android:textSize="12dp"
+            android:textColor="#252525" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내용"
+            android:layout_weight="1"
+            android:id="@+id/txtC"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#252525" />
+
+    </LinearLayout>
+
+</RelativeLayout>

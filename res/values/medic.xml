@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="medic">
+        <item>인</item>
+        <item>CV</item>
+        <item>케이5</item>
+        <item>피씨</item>
+        <item>래비샷</item>
+        <item>티멕스</item>
+        <item>파모스</item>
+        <item>암피스틴</item>
+        <item>인테스탄</item>
+        <item>비고포스</item>
+        <item>피에이치씨</item>
+        <item>콜리스틴40</item>
+        <item>디에치피피엘</item>
+        <item>켄넬코프-플러스</item>
+    </string-array>
+</resources>
